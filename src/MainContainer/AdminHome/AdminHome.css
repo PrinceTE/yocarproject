@@ -1,0 +1,55 @@
+.admin-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    min-height: fit-content;
+    justify-content: center;
+    height: 10%;
+    background-image: url('/public/assets/bg.jpg');
+}
+
+.admin-parent{
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+}
+
+.btn-search {
+    color: var(--white);
+  
+    font-size: 14px;
+    background-color: #ff5823;
+  }
+
+  .btn-search:hover{
+      color:aliceblue
+  }
+
+  .company-tagline{
+    display: flex;
+    flex-direction: column;
+    margin: 14px 0 24px 0;
+}
+
+
+.admin-search .btn-search {
+    margin: 0 0 0 28px;
+}
+.admin-search .btn-search :hover{
+    margin: 0 0 0 28px;
+    background-color: cornsilk;
+}
+
+.colz .colz-icon i{
+    color: white;
+    padding: 8px;
+    padding-left: 0px;
+  }
+
+  .colz .colz-icon i:hover{
+      transform: scale(1.5);
+
+  }
+  .admin-search .form-control{
+      width: 600px;
+  }

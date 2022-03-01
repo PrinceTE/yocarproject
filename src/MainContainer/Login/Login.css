@@ -1,0 +1,25 @@
+.section{
+    width: 70%;
+    height: 10%;
+    margin-left: 12%;
+}
+
+.btn{
+    background-color: orangered;
+    color: aliceblue;
+}
+.btn:hover{
+    background-color: rgb(15, 15, 63);
+    color: aliceblue;
+}
+input{
+    border-radius: 3px;
+}
+
+.user-notice{
+    color: red;
+}
+
+.modal-parent{
+    width: 100%;
+}
